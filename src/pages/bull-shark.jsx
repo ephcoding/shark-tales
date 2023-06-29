@@ -1,12 +1,12 @@
 import { HomeLinkButton } from "@/components/HomeLinkButton";
 import { PageWithBackgroundImage } from "@/components/PageWithBackgroundImage";
 
-const WhaleSharkPage = () => {
+const BullSharkPage = () => {
   return (
-    <PageWithBackgroundImage bgImgUrl="/whale-shark.jpg">
+    <PageWithBackgroundImage bgImgUrl="/bull-shark.jpg">
       <HomeLinkButton />
     </PageWithBackgroundImage>
   );
 };
 
-export default WhaleSharkPage;
+export default BullSharkPage;
