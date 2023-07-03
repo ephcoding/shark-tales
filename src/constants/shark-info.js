@@ -411,4 +411,44 @@ export const SHARK_INFO = {
       "South America",
     ],
   },
+  megalodon: {
+    id: "019",
+    name: "Megalodon Shark",
+    imageSrc: "/megalodon-shark.jpg",
+    url: "/megalodon-shark",
+    maxLength: {
+      feet: 70,
+      meters: 21,
+    },
+    maxWeight: {
+      pounds: 150000,
+      kilograms: 68039,
+    },
+    diet: ["large whales"],
+    swimSpeed: {
+      mph: null,
+      kph: null,
+    },
+    location: [],
+  },
+  saw: {
+    id: "020",
+    name: "Saw Shark",
+    imageSrc: "/saw-shark.jpg",
+    url: "/saw-shark",
+    maxLength: {
+      feet: null,
+      meters: null,
+    },
+    maxWeight: {
+      pounds: null,
+      kilograms: null,
+    },
+    diet: [],
+    swimSpeed: {
+      mph: null,
+      kph: null,
+    },
+    location: ["Extinct"],
+  },
 };
