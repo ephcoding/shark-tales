@@ -3,7 +3,7 @@ import { PageWithBackgroundImage } from "@/components/PageWithBackgroundImage";
 
 const BronzeWhalerSharkPage = () => {
   return (
-    <PageWithBackgroundImage bgImgUrl="/bronse-whaler-shark.jpg">
+    <PageWithBackgroundImage bgImgUrl="/bronze-whaler-shark.jpg">
       <HomeLinkButton />
     </PageWithBackgroundImage>
   );
