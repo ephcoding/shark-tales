@@ -7,7 +7,7 @@ export const HomeLinkButton = () => {
       <GiSharkFin
         size={50}
         color="white"
-        className="border-black p-2 rounded-3xl bg-blue-500"
+        className="border-white border-2 p-2 rounded-3xl bg-blue-500"
       />
     </Link>
   );
