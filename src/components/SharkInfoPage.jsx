@@ -17,14 +17,10 @@ export const SharkInfoPage = ({ shark }) => {
 
 const SharkInfoPageHeader = ({ name }) => {
   return (
-    <Navbar>
-      <Navbar.Start>
-        <HomeLinkButton />
-      </Navbar.Start>
-      <Navbar.End>
-        <h1 className="text-6xl font-bold uppercase text-white">{name}</h1>
-      </Navbar.End>
-    </Navbar>
+    <div className="flex justify-between">
+      <HomeLinkButton />
+      <h1 className="text-6xl font-bold uppercase text-white">{name}</h1>
+    </div>
   );
 };
 
