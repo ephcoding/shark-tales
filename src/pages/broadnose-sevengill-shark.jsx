@@ -1,12 +1,8 @@
-import { HomeLinkButton } from "@/components/HomeLinkButton";
-import { PageWithBackgroundImage } from "@/components/PageWithBackgroundImage";
+import { SharkInfoPage } from "@/components";
+import { SHARK_INFO } from "@/constants";
 
-const BroadnoseSevengillSharkPage = () => {
-  return (
-    <PageWithBackgroundImage bgImgUrl="/broadnose-sevengill-shark.jpg">
-      <HomeLinkButton />
-    </PageWithBackgroundImage>
-  );
+const BroadNoseSevenGillSharkPage = () => {
+  return <SharkInfoPage shark={SHARK_INFO["broadnoseSevengill"]} />;
 };
 
-export default BroadnoseSevengillSharkPage;
+export default BroadNoseSevenGillSharkPage;

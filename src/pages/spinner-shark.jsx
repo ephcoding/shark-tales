@@ -1,12 +1,8 @@
-import { HomeLinkButton } from "@/components/HomeLinkButton";
-import { PageWithBackgroundImage } from "@/components/PageWithBackgroundImage";
+import { SharkInfoPage } from "@/components";
+import { SHARK_INFO } from "@/constants";
 
 const SpinnerSharkPage = () => {
-  return (
-    <PageWithBackgroundImage bgImgUrl="/spinner-shark.jpg">
-      <HomeLinkButton />
-    </PageWithBackgroundImage>
-  );
+  return <SharkInfoPage shark={SHARK_INFO["spinner"]} />;
 };
 
 export default SpinnerSharkPage;

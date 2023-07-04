@@ -1,12 +1,8 @@
-import { HomeLinkButton } from "@/components/HomeLinkButton";
-import { PageWithBackgroundImage } from "@/components/PageWithBackgroundImage";
+import { SharkInfoPage } from "@/components";
+import { SHARK_INFO } from "@/constants";
 
-const WobbegongPage = () => {
-  return (
-    <PageWithBackgroundImage bgImgUrl="/wobbegong-shark.jpg">
-      <HomeLinkButton />
-    </PageWithBackgroundImage>
-  );
+const WobbegongSharkPage = () => {
+  return <SharkInfoPage shark={SHARK_INFO["wobbegong"]} />;
 };
 
-export default WobbegongPage;
+export default WobbegongSharkPage;

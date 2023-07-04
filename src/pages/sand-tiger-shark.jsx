@@ -1,12 +1,8 @@
-import { HomeLinkButton } from "@/components/HomeLinkButton";
-import { PageWithBackgroundImage } from "@/components/PageWithBackgroundImage";
+import { SharkInfoPage } from "@/components";
+import { SHARK_INFO } from "@/constants";
 
-const SandTigerShark = () => {
-  return (
-    <PageWithBackgroundImage bgImgUrl="/sand-tiger-shark.jpg">
-      <HomeLinkButton />
-    </PageWithBackgroundImage>
-  );
+const SandTigerSharkPage = () => {
+  return <SharkInfoPage shark={SHARK_INFO["sandTiger"]} />;
 };
 
-export default SandTigerShark;
+export default SandTigerSharkPage;

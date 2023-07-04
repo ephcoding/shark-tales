@@ -1,12 +1,8 @@
-import { HomeLinkButton } from "@/components/HomeLinkButton";
-import { PageWithBackgroundImage } from "@/components/PageWithBackgroundImage";
+import { SharkInfoPage } from "@/components";
+import { SHARK_INFO } from "@/constants";
 
 const MegalodonSharkPage = () => {
-  return (
-    <PageWithBackgroundImage bgImgUrl="/megalodon-shark.jpg">
-      <HomeLinkButton />
-    </PageWithBackgroundImage>
-  );
+  return <SharkInfoPage shark={SHARK_INFO["megalodon"]} />;
 };
 
 export default MegalodonSharkPage;
