@@ -36,7 +36,7 @@ const ProgressStats = ({ stats }) => {
   } = stats;
 
   return (
-    <div className="flex flex-col gap-y-2 w-1/2 mx-auto bg-black rounded-md p-10">
+    <div className="flex flex-col gap-y-2 w-1/2 mx-auto bg-blue-800/50 rounded-md p-10">
       <ProgressStat title="Max Length:" value={feet ?? "NA"} />
       <ProgressStat title="Max Weight:" value={pounds ?? "NA"} />
       <ProgressStat title="Swim Speed:" value={mph ?? "NA"} />
