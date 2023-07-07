@@ -3,7 +3,7 @@ import { Button, Card } from "react-daisyui";
 
 export const SharkCard = ({ name, imageSrc, url }) => {
   return (
-    <Card key={name} className="bg-white">
+    <Card key={name} className="bg-transparent border-2 border-white">
       <Card.Image src={imageSrc} alt={name} />
       <Card.Body>
         <Card.Title tag="h3" className="text-secondary">
