@@ -126,7 +126,7 @@ export const SHARK_INFO = {
     location: ["warm coastal waters"],
   },
   blackTip: {
-    id: "006",
+    id: "007",
     name: "Blacktip Reef Shark",
     imageSrc: "/black-tip-reef-shark.jpg",
     url: "/black-tip-reef-shark",
@@ -146,7 +146,7 @@ export const SHARK_INFO = {
     location: ["warm coastal waters"],
   },
   bull: {
-    id: "007",
+    id: "008",
     name: "Bull Shark",
     imageSrc: "/bull-shark.jpg",
     url: "/bull-shark",
@@ -166,7 +166,7 @@ export const SHARK_INFO = {
     location: [],
   },
   tiger: {
-    id: "008",
+    id: "009",
     name: "Tiger Shark",
     imageSrc: "/tiger-shark.jpg",
     url: "/tiger-shark",
@@ -194,7 +194,7 @@ export const SHARK_INFO = {
     location: ["tropical waters", "subtropical waters"],
   },
   greatWhite: {
-    id: "009",
+    id: "010",
     name: "Great White Shark",
     imageSrc: "/great-white-shark.jpg",
     url: "/great-white-shark",
@@ -214,7 +214,7 @@ export const SHARK_INFO = {
     location: ["cool coastal waters"],
   },
   whale: {
-    id: "010",
+    id: "011",
     name: "Whale Shark",
     imageSrc: "/whale-shark.jpg",
     url: "/whale-shark",
@@ -234,7 +234,7 @@ export const SHARK_INFO = {
     location: ["temperate waters worldwide"],
   },
   megamouth: {
-    id: "011",
+    id: "012",
     name: "Megamouth Shark",
     imageSrc: "/mega-mouth-shark.jpg",
     url: "/mega-mouth-shark",
@@ -254,7 +254,7 @@ export const SHARK_INFO = {
     location: ["small ocean patches worldwide"],
   },
   blind: {
-    id: "012",
+    id: "013",
     name: "Blind Shark",
     imageSrc: "/blind-shark.jpg",
     url: "/blind-shark",
@@ -274,7 +274,7 @@ export const SHARK_INFO = {
     location: ["east Australian coast", "rocky areas", "seagrass beds"],
   },
   broadnoseSevengill: {
-    id: "013",
+    id: "014",
     name: "Broadnose Sevengill Shark",
     imageSrc: "/broadnose-sevengill-shark.jpg",
     url: "/broadnose-sevengill-shark",
@@ -301,7 +301,7 @@ export const SHARK_INFO = {
     location: ["coastal waters", "waters no deeper than 164' (50 m) worldwide"],
   },
   angel: {
-    id: "014",
+    id: "015",
     name: "Angel Shark",
     imageSrc: "/angel-shark.jpg",
     url: "/angel-shark",
@@ -321,7 +321,7 @@ export const SHARK_INFO = {
     location: ["shallow coastal waters worldwide"],
   },
   californiaHorn: {
-    id: "015",
+    id: "016",
     name: "California Horn Shark",
     imageSrc: "/california-horn-shark.jpg",
     url: "/california-horn-shark",
@@ -341,7 +341,7 @@ export const SHARK_INFO = {
     location: ["coastal waters worldwide"],
   },
   velvetBellyLantern: {
-    id: "016",
+    id: "017",
     name: "Velvet Belly Lantern Shark",
     imageSrc: "/velvet-belly-lantern-shark.jpg",
     url: "/velvet-belly-lantern-shark",
@@ -366,7 +366,7 @@ export const SHARK_INFO = {
     ],
   },
   crocodile: {
-    id: "017",
+    id: "018",
     name: "Crocodile Shark",
     imageSrc: "/crocodile-shark.jpg",
     url: "/crocodile-shark",
@@ -386,7 +386,7 @@ export const SHARK_INFO = {
     location: ["deep tropical waters worldwide"],
   },
   lemon: {
-    id: "018",
+    id: "019",
     name: "Lemon Shark",
     imageSrc: "/lemon-shark.jpg",
     url: "/lemon-shark",
@@ -412,7 +412,7 @@ export const SHARK_INFO = {
     ],
   },
   megalodon: {
-    id: "019",
+    id: "020",
     name: "Megalodon Shark",
     imageSrc: "/megalodon-shark.jpg",
     url: "/megalodon-shark",
@@ -432,23 +432,83 @@ export const SHARK_INFO = {
     location: [],
   },
   saw: {
-    id: "020",
+    id: "021",
     name: "Saw Shark",
     imageSrc: "/saw-shark.jpg",
     url: "/saw-shark",
     maxLength: {
-      feet: null,
-      meters: null,
+      feet: 4.5,
+      meters: 1.4,
     },
     maxWeight: {
-      pounds: null,
-      kilograms: null,
+      pounds: 18.7,
+      kilograms: 8.5,
     },
-    diet: [],
+    diet: ["fish"],
     swimSpeed: {
       mph: null,
       kph: null,
     },
-    location: ["Extinct"],
+    location: ["Western Atlantic", "Indian Ocean", "Western Pacific Ocean"],
+  },
+  thresher: {
+    id: "022",
+    name: "Thresher Shark",
+    imageSrc: "/thresher-shark.jpg",
+    url: "/thresher-shark",
+    maxLength: {
+      feet: 20,
+      meters: 6.1,
+    },
+    maxWeight: {
+      pounds: 1100,
+      kilograms: 500,
+    },
+    diet: [],
+    swimSpeed: {
+      mph: 30,
+      kph: 45,
+    },
+    location: [],
+  },
+  mako: {
+    id: "023",
+    name: "Mako Shark",
+    imageSrc: "/mako-shark.jpg",
+    url: "/mako-shark",
+    maxLength: {
+      feet: 12,
+      meters: 3.8,
+    },
+    maxWeight: {
+      pounds: 1200,
+      kilograms: 545,
+    },
+    diet: ["tuna, squid, sharks, sea turtles"],
+    swimSpeed: {
+      mph: 45,
+      kph: 74,
+    },
+    location: [],
+  },
+  zebra: {
+    id: "024",
+    name: "Zebra Shark",
+    imageSrc: "/zebra-shark.jpg",
+    url: "/zebra-shark",
+    maxLength: {
+      feet: 8.2,
+      meters: 2.5,
+    },
+    maxWeight: {
+      pounds: 66,
+      kilograms: 30,
+    },
+    diet: ["mollusks", "crustaceans", "small fish"],
+    swimSpeed: {
+      mph: null,
+      kph: null,
+    },
+    location: ["Tropical Western Pacific", "Indian Ocean", "Red Sea"],
   },
 };
