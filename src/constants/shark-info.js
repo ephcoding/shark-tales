@@ -511,4 +511,44 @@ export const SHARK_INFO = {
     },
     location: ["Tropical Western Pacific", "Indian Ocean", "Red Sea"],
   },
+  greenland: {
+    id: "025",
+    name: "Greenland Shark",
+    imageSrc: "/greenland-shark.jpg",
+    url: "/greenland-shark",
+    maxLength: {
+      feet: 24,
+      meters: 7.3,
+    },
+    maxWeight: {
+      pounds: 2200,
+      kilograms: 1000,
+    },
+    diet: ["seals", "fish", "seabirds", "squid"],
+    swimSpeed: {
+      mph: 1.6,
+      kph: 2.6,
+    },
+    location: [],
+  },
+  swell: {
+    id: "026",
+    name: "Swell Shark",
+    imageSrc: "/swell-shark.jpg",
+    url: "/swell-shark",
+    maxLength: {
+      feet: 3.6,
+      meters: 1.1,
+    },
+    maxWeight: {
+      pounds: 22,
+      kilograms: 10,
+    },
+    swimSpeed: {
+      mph: null,
+      kph: null,
+    },
+    diet: [],
+    location: ["eastern Pacific Ocean"],
+  },
 };
