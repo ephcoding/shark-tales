@@ -551,4 +551,24 @@ export const SHARK_INFO = {
     diet: [],
     location: ["eastern Pacific Ocean"],
   },
+  basking: {
+    id: "027",
+    name: "Basking Shark",
+    imageSrc: "/basking-shark.jpg",
+    url: "/basking-shark",
+    maxLength: {
+      feet: 26,
+      meters: 7.9,
+    },
+    maxWeight: {
+      pounds: 8600,
+      kilograms: 3900,
+    },
+    swimSpeed: {
+      mph: 2.3,
+      kph: 3.7,
+    },
+    diet: ["zooplankton", "small fish", "invertebrates"],
+    location: [],
+  },
 };
