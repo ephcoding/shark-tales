@@ -3,7 +3,7 @@ export const SHARK_INFO = {
     id: "001",
     name: "Oceanic Whitetip Shark",
     imageSrc: "/oceanic-whitetip-shark.jpg",
-    url: "/oceanic-whitetip-shark",
+    slug: "/sharks/oceanic-whitetip-shark",
     maxLength: {
       feet: 13,
       meters: 4,
@@ -23,7 +23,7 @@ export const SHARK_INFO = {
     id: "002",
     name: "Bronze Whaler Shark",
     imageSrc: "/bronze-whaler-shark.jpg",
-    url: "/bronze-whaler-shark",
+    slug: "/sharks/bronze-whaler-shark",
     maxLength: {
       feet: 1,
       meters: 3.4,
@@ -43,7 +43,7 @@ export const SHARK_INFO = {
     id: "003",
     name: "Hammerhead Shark",
     imageSrc: "/hammerhead-shark.jpg",
-    url: "/hammerhead-shark",
+    slug: "/sharks/hammerhead-shark",
     maxLength: {
       feet: 13,
       meters: 4,
@@ -63,7 +63,7 @@ export const SHARK_INFO = {
     id: "004",
     name: "Spinner Shark",
     imageSrc: "/spinner-shark.jpg",
-    url: "/spinner-shark",
+    slug: "/sharks/spinner-shark",
     maxLength: {
       feet: 9,
       meters: 3,
@@ -89,7 +89,7 @@ export const SHARK_INFO = {
     id: "005",
     name: "Wobbegong",
     imageSrc: "/wobbegong-shark.jpg",
-    url: "/wobbegong-shark",
+    slug: "/sharks/wobbegong-shark",
     maxLength: {
       feet: 10,
       meters: 3,
@@ -109,7 +109,7 @@ export const SHARK_INFO = {
     id: "006",
     name: "Sand Tiger Shark",
     imageSrc: "/sand-tiger-shark.jpg",
-    url: "/sand-tiger-shark",
+    slug: "/sharks/sand-tiger-shark",
     maxLength: {
       feet: 10,
       meters: 3,
@@ -129,7 +129,7 @@ export const SHARK_INFO = {
     id: "007",
     name: "Blacktip Reef Shark",
     imageSrc: "/black-tip-reef-shark.jpg",
-    url: "/black-tip-reef-shark",
+    slug: "/sharks/black-tip-reef-shark",
     maxLength: {
       feet: 8,
       meters: 2.4,
@@ -149,7 +149,7 @@ export const SHARK_INFO = {
     id: "008",
     name: "Bull Shark",
     imageSrc: "/bull-shark.jpg",
-    url: "/bull-shark",
+    slug: "/sharks/bull-shark",
     maxLength: {
       feet: 11.5,
       meters: 3.5,
@@ -169,7 +169,7 @@ export const SHARK_INFO = {
     id: "009",
     name: "Tiger Shark",
     imageSrc: "/tiger-shark.jpg",
-    url: "/tiger-shark",
+    slug: "/sharks/tiger-shark",
     maxLength: {
       feet: 14,
       meters: 4.3,
@@ -197,7 +197,7 @@ export const SHARK_INFO = {
     id: "010",
     name: "Great White Shark",
     imageSrc: "/great-white-shark.jpg",
-    url: "/great-white-shark",
+    slug: "/sharks/great-white-shark",
     maxLength: {
       feet: 20,
       meters: 6,
@@ -217,7 +217,7 @@ export const SHARK_INFO = {
     id: "011",
     name: "Whale Shark",
     imageSrc: "/whale-shark.jpg",
-    url: "/whale-shark",
+    slug: "/sharks/whale-shark",
     maxLength: {
       feet: 40,
       meters: 12,
@@ -237,7 +237,7 @@ export const SHARK_INFO = {
     id: "012",
     name: "Megamouth Shark",
     imageSrc: "/mega-mouth-shark.jpg",
-    url: "/mega-mouth-shark",
+    slug: "/sharks/mega-mouth-shark",
     maxLength: {
       feet: 18,
       meters: 5.5,
@@ -257,7 +257,7 @@ export const SHARK_INFO = {
     id: "013",
     name: "Blind Shark",
     imageSrc: "/blind-shark.jpg",
-    url: "/blind-shark",
+    slug: "/sharks/blind-shark",
     maxLength: {
       feet: 3.9,
       meters: 1.2,
@@ -277,7 +277,7 @@ export const SHARK_INFO = {
     id: "014",
     name: "Broadnose Sevengill Shark",
     imageSrc: "/broadnose-sevengill-shark.jpg",
-    url: "/broadnose-sevengill-shark",
+    slug: "/sharks/broadnose-sevengill-shark",
     maxLength: {
       feet: 9.8,
       meters: 3,
@@ -304,7 +304,7 @@ export const SHARK_INFO = {
     id: "015",
     name: "Angel Shark",
     imageSrc: "/angel-shark.jpg",
-    url: "/angel-shark",
+    slug: "/sharks/angel-shark",
     maxLength: {
       feet: 4.9,
       meters: 1.5,
@@ -324,7 +324,7 @@ export const SHARK_INFO = {
     id: "016",
     name: "California Horn Shark",
     imageSrc: "/california-horn-shark.jpg",
-    url: "/california-horn-shark",
+    slug: "/sharks/california-horn-shark",
     maxLength: {
       feet: 4,
       meters: 1.2,
@@ -344,7 +344,7 @@ export const SHARK_INFO = {
     id: "017",
     name: "Velvet Belly Lantern Shark",
     imageSrc: "/velvet-belly-lantern-shark.jpg",
-    url: "/velvet-belly-lantern-shark",
+    slug: "/sharks/velvet-belly-lantern-shark",
     maxLength: {
       feet: 1.5,
       meters: 0.5,
@@ -369,7 +369,7 @@ export const SHARK_INFO = {
     id: "018",
     name: "Crocodile Shark",
     imageSrc: "/crocodile-shark.jpg",
-    url: "/crocodile-shark",
+    slug: "/sharks/crocodile-shark",
     maxLength: {
       feet: 3.9,
       meters: 1.2,
@@ -389,7 +389,7 @@ export const SHARK_INFO = {
     id: "019",
     name: "Lemon Shark",
     imageSrc: "/lemon-shark.jpg",
-    url: "/lemon-shark",
+    slug: "/sharks/lemon-shark",
     maxLength: {
       feet: 10,
       meters: 3,
@@ -415,7 +415,7 @@ export const SHARK_INFO = {
     id: "020",
     name: "Megalodon Shark",
     imageSrc: "/megalodon-shark.jpg",
-    url: "/megalodon-shark",
+    slug: "/sharks/megalodon-shark",
     maxLength: {
       feet: 70,
       meters: 21,
@@ -435,7 +435,7 @@ export const SHARK_INFO = {
     id: "021",
     name: "Saw Shark",
     imageSrc: "/saw-shark.jpg",
-    url: "/saw-shark",
+    slug: "/sharks/saw-shark",
     maxLength: {
       feet: 4.5,
       meters: 1.4,
@@ -455,7 +455,7 @@ export const SHARK_INFO = {
     id: "022",
     name: "Thresher Shark",
     imageSrc: "/thresher-shark.jpg",
-    url: "/thresher-shark",
+    slug: "/sharks/thresher-shark",
     maxLength: {
       feet: 20,
       meters: 6.1,
@@ -475,7 +475,7 @@ export const SHARK_INFO = {
     id: "023",
     name: "Mako Shark",
     imageSrc: "/mako-shark.jpg",
-    url: "/mako-shark",
+    slug: "/sharks/mako-shark",
     maxLength: {
       feet: 12,
       meters: 3.8,
@@ -495,7 +495,7 @@ export const SHARK_INFO = {
     id: "024",
     name: "Zebra Shark",
     imageSrc: "/zebra-shark.jpg",
-    url: "/zebra-shark",
+    slug: "/sharks/zebra-shark",
     maxLength: {
       feet: 8.2,
       meters: 2.5,
@@ -515,7 +515,7 @@ export const SHARK_INFO = {
     id: "025",
     name: "Greenland Shark",
     imageSrc: "/greenland-shark.jpg",
-    url: "/greenland-shark",
+    slug: "/sharks/greenland-shark",
     maxLength: {
       feet: 24,
       meters: 7.3,
@@ -535,7 +535,7 @@ export const SHARK_INFO = {
     id: "026",
     name: "Swell Shark",
     imageSrc: "/swell-shark.jpg",
-    url: "/swell-shark",
+    slug: "/sharks/swell-shark",
     maxLength: {
       feet: 3.6,
       meters: 1.1,
@@ -555,7 +555,7 @@ export const SHARK_INFO = {
     id: "027",
     name: "Basking Shark",
     imageSrc: "/basking-shark.jpg",
-    url: "/basking-shark",
+    slug: "/sharks/basking-shark",
     maxLength: {
       feet: 26,
       meters: 7.9,

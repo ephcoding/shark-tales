@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button, Card } from "react-daisyui";
 
-export const SharkCard = ({ name, imageSrc, url }) => {
+export const SharkCard = ({ name, imageSrc, slug }) => {
   return (
     <Card key={name} className="bg-transparent border-2 border-white">
       <Card.Image src={imageSrc} alt={name} />
@@ -10,7 +10,7 @@ export const SharkCard = ({ name, imageSrc, url }) => {
           {name}
         </Card.Title>
         <Card.Actions className="justify-end">
-          <Link href={url}>
+          <Link href={slug}>
             <Button color="primary">Learn more!</Button>
           </Link>
         </Card.Actions>

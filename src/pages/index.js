@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <PageWithBackgroundImage bgImgUrl="/sharks-from-top.jpg">
       <GridLayout>
-        {sortedSharks.map(({ imageSrc, name, url }) => {
+        {sortedSharks.map(({ imageSrc, name, slug }) => {
           return (
-            <SharkCard key={name} imageSrc={imageSrc} name={name} url={url} />
+            <SharkCard key={name} imageSrc={imageSrc} name={name} slug={slug} />
           );
         })}
       </GridLayout>
