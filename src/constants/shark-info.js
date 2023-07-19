@@ -1,5 +1,5 @@
 export const SHARK_INFO = {
-  oceanicWhiteTip: {
+  oceanicwhitetip: {
     id: "001",
     name: "Oceanic Whitetip Shark",
     imageSrc: "/oceanic-whitetip-shark.jpg",
@@ -19,7 +19,7 @@ export const SHARK_INFO = {
     },
     location: ["warm waters", "open ocean", "rocky reefs", "coral reefs"],
   },
-  bronzeWhaler: {
+  bronzewhaler: {
     id: "002",
     name: "Bronze Whaler Shark",
     imageSrc: "/bronze-whaler-shark.jpg",
@@ -105,7 +105,7 @@ export const SHARK_INFO = {
     },
     location: ["coral reefs", "Asia", "New Guinea", "Australia"],
   },
-  sandTiger: {
+  sandtiger: {
     id: "006",
     name: "Sand Tiger Shark",
     imageSrc: "/sand-tiger-shark.jpg",
@@ -125,7 +125,7 @@ export const SHARK_INFO = {
     },
     location: ["warm coastal waters"],
   },
-  blackTip: {
+  blacktipreef: {
     id: "007",
     name: "Blacktip Reef Shark",
     imageSrc: "/black-tip-reef-shark.jpg",
@@ -193,7 +193,7 @@ export const SHARK_INFO = {
     },
     location: ["tropical waters", "subtropical waters"],
   },
-  greatWhite: {
+  greatwhite: {
     id: "010",
     name: "Great White Shark",
     imageSrc: "/great-white-shark.jpg",
@@ -273,7 +273,7 @@ export const SHARK_INFO = {
     },
     location: ["east Australian coast", "rocky areas", "seagrass beds"],
   },
-  broadnoseSevengill: {
+  broadnosesevengill: {
     id: "014",
     name: "Broadnose Sevengill Shark",
     imageSrc: "/broadnose-sevengill-shark.jpg",
@@ -320,7 +320,7 @@ export const SHARK_INFO = {
     },
     location: ["shallow coastal waters worldwide"],
   },
-  californiaHorn: {
+  californiahorn: {
     id: "016",
     name: "California Horn Shark",
     imageSrc: "/california-horn-shark.jpg",
@@ -340,7 +340,7 @@ export const SHARK_INFO = {
     },
     location: ["coastal waters worldwide"],
   },
-  velvetBellyLantern: {
+  velvetbellylantern: {
     id: "017",
     name: "Velvet Belly Lantern Shark",
     imageSrc: "/velvet-belly-lantern-shark.jpg",
