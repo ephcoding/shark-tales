@@ -571,4 +571,24 @@ export const SHARK_INFO = {
     diet: ["zooplankton", "small fish", "invertebrates"],
     location: [],
   },
+  goblin: {
+    id: "028",
+    name: "Goblin Shark",
+    imageSrc: "/goblin-shark.jpg",
+    slug: "/sharks/goblin-shark",
+    maxLength: {
+      feet: 12,
+      meters: 3.7,
+    },
+    maxWeight: {
+      pounds: 460,
+      kilograms: 209,
+    },
+    swimSpeed: {
+      mph: 15,
+      kph: 20,
+    },
+    diet: ["rattails", "dragonfishes", "cephalopods", "crustaceans"],
+    location: ["bottom of the ocean along continental shelves"],
+  },
 };

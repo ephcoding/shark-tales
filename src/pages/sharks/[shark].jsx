@@ -1,12 +1,16 @@
 import { useRouter } from "next/router";
-import { Progress } from "react-daisyui";
+import { Progress, Stats } from "react-daisyui";
 
 import { HomeLinkButton } from "@/components/HomeLinkButton";
 import { PageWithBackgroundImage } from "@/components/PageWithBackgroundImage";
 import { SHARK_INFO } from "@/constants";
 
+const { Stat } = Stats;
+
 const SharkPage = () => {
   const nextRouter = useRouter();
+  console.clear();
+  console.log("NEXT ROUTER:\n", nextRouter);
   let slug = nextRouter.query.shark;
   const sharkInfoProp = convertSlugToSharkInfoProp(slug);
   const shark = SHARK_INFO[sharkInfoProp];
@@ -15,29 +19,17 @@ const SharkPage = () => {
 
   return (
     <PageWithBackgroundImage bgImgUrl={imageSrc}>
-      <SharkInfoPageHeader name={name} />
-      <ProgressStats stats={stats} />
+      <div className="flex flex-col h-screen">
+        <SharkInfoPageHeader name={name} />
+        <div className="flex flex-1 justify-center items-center">
+          <SharkStats stats={stats} />
+        </div>
+      </div>
     </PageWithBackgroundImage>
   );
 };
 
 export default SharkPage;
-
-const ProgressStats = ({ stats }) => {
-  const {
-    maxLength: { feet },
-    maxWeight: { pounds },
-    swimSpeed: { mph },
-  } = stats;
-
-  return (
-    <div className="flex flex-col gap-y-2 w-1/2 mx-auto bg-blue-800/50 rounded-md p-10">
-      <ProgressStat title="Max Length:" value={feet ?? "NA"} />
-      <ProgressStat title="Max Weight:" value={pounds ?? "NA"} />
-      <ProgressStat title="Swim Speed:" value={mph ?? "NA"} />
-    </div>
-  );
-};
 
 const SharkInfoPageHeader = ({ name }) => {
   return (
@@ -48,13 +40,30 @@ const SharkInfoPageHeader = ({ name }) => {
   );
 };
 
-const ProgressStat = ({ title, value }) => {
+const SharkStats = ({ stats }) => {
+  const {
+    maxLength: { feet },
+    maxWeight: { pounds },
+    swimSpeed: { mph },
+  } = stats;
+
   return (
-    <div className="flex items-center justify-between">
-      <span className="flex-1">{title}</span>
-      <Progress className="flex-3 w-56" max={100} color="info" value={value} />
-      <span className="flex-1 pl-5">{value}</span>
-    </div>
+    <Stats horizontal className="bg-transparent">
+      <Stats.Stat className="bg-blue-700/30">
+        <Stat.Item variant="title">MAX LENGTH</Stat.Item>
+        <Stat.Item variant="value">{feet} ft.</Stat.Item>
+      </Stats.Stat>
+
+      <Stats.Stat className="bg-blue-700/30">
+        <Stat.Item variant="title">MAX WEIGHT</Stat.Item>
+        <Stat.Item variant="value">{pounds} lb.</Stat.Item>
+      </Stats.Stat>
+
+      <Stats.Stat className="bg-blue-700/30">
+        <Stat.Item variant="title">SWIM SPEED</Stat.Item>
+        <Stat.Item variant="value">{mph} mph</Stat.Item>
+      </Stats.Stat>
+    </Stats>
   );
 };
 
