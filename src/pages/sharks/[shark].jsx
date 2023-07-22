@@ -33,9 +33,11 @@ export default SharkPage;
 
 const SharkInfoPageHeader = ({ name }) => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between items-center">
       <HomeLinkButton />
-      <h1 className="text-6xl font-bold uppercase text-white">{name}</h1>
+      <h1 className="text-xl sm:text-3xl lg:text-4xl font-bold uppercase text-white">
+        {name}
+      </h1>
     </div>
   );
 };

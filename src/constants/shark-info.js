@@ -45,12 +45,12 @@ export const SHARK_INFO = {
     imageSrc: "/hammerhead-shark.jpg",
     slug: "/sharks/hammerhead-shark",
     maxLength: {
-      feet: 13,
-      meters: 4,
+      feet: 20,
+      meters: 6.1,
     },
     maxWeight: {
-      pounds: 500,
-      kilograms: 227,
+      pounds: 1000,
+      kilograms: 454,
     },
     diet: ["stingrays", "bony fish", "crabs", "squid", "lobster"],
     swimSpeed: {
