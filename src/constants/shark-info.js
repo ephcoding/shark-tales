@@ -591,4 +591,44 @@ export const SHARK_INFO = {
     diet: ["rattails", "dragonfishes", "cephalopods", "crustaceans"],
     location: ["bottom of the ocean along continental shelves"],
   },
+  frilled: {
+    id: "029",
+    name: "Frilled Shark",
+    imageSrc: "/frilled-shark.jpg",
+    slug: "/sharks/frilled-shark",
+    maxLength: {
+      feet: 7,
+      meters: 2,
+    },
+    maxWeight: {
+      pounds: 200,
+      kilograms: 90.7,
+    },
+    swimSpeed: {
+      mph: 5,
+      kph: 10,
+    },
+    diet: ["various fish", "other sharks"],
+    location: ["typically between depths of 500 and 1,000 meters"],
+  },
+  copper: {
+    id: "030",
+    name: "Copper Shark",
+    imageSrc: "/copper-shark.gif",
+    slug: "/sharks/copper-shark",
+    maxLength: {
+      feet: 11,
+      meters: 3.3,
+    },
+    maxWeight: {
+      pounds: 370,
+      kilograms: 169,
+    },
+    swimSpeed: {
+      mph: null,
+      kph: null,
+    },
+    diet: [],
+    location: [],
+  },
 };
